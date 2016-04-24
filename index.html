@@ -20,6 +20,7 @@
                 font-size: 0.9em;
                 font-style: italic;
                 margin: .2em 0 1em 0;
+                line-height: 1.6em;
             }
             .wrapper {
                 width: 100%;
@@ -45,6 +46,12 @@
                 text-decoration: none;
                 cursor: move;
             }
+            .github-link, .github-link:visited {
+                color: #999;
+            }
+            .github-link:hover {
+                color: #bbb;
+            }
             .seperator {
                 width: 3em;
                 height: 1px;
@@ -57,7 +64,7 @@
         <div class="wrapper">
             <main class="content">
                 <h1>KMUTT Auto Evaluation</h1>
-                <p class="tagline">We know that you are lazy, but you love your teacher. This is how we are going to fix it</p>
+                <p class="tagline">We know that you are lazy, but you love your teacher. This is how we are going to fix it<br><a class="github-link" href="https://github.com/pixelart7/KMUTT-Auto-Evaluation">View on GitHub</a></p>
                 <div class="seperator"></div>
                 <p class="intro">Drag the button below to the bookmark bar.<br>Click it when you open the evaluation page.</p>
                 <a class="button" href="javascript: (function () { var jsCode = document.createElement('script'); jsCode.setAttribute('src', 'http://cdn.rawgit.com/pixelart7/KMUTT-Auto-Evaluation/master/main.min.js'); document.body.appendChild(jsCode); }());">KMUTT Auto Eval</a>
