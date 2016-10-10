@@ -1,0 +1,24 @@
+{
+  "name": "kmutt-auto-evaluation",
+  "version": "0.0.2",
+  "description": "Make Evaluation System Great Again",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-minify": "0.0.14"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixelart7/KMUTT-Auto-Evaluation.git"
+  },
+  "author": "Chaiyapat Tantiworachot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pixelart7/KMUTT-Auto-Evaluation/issues"
+  },
+  "homepage": "http://pixelart7.github.io/KMUTT-Auto-Evaluation/"
+}
