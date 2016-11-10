@@ -2,7 +2,7 @@ rating = prompt("How much do you like this teacher? Enter any number between 1 t
 if (rating < 0 || rating > 5) throw new Error("Enter only 1-5 or 0! Please run the script again!");
 var t = 0;
 for (i = 0; i <= 99; i++) {
-    rand = Math.floor(10 * Math.random()) % 3 + (a - 1);
+    rand = Math.floor(10 * Math.random()) % 3 + (rating - 1);
     if (rand > 5) rand = 5;
     if (rand < 1) rand = 1;
     if (0 == rating) rand = 0;
