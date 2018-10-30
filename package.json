@@ -1,6 +1,6 @@
 {
   "name": "kmutt-auto-evaluation",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Make Evaluation System Great Again",
   "main": "index.js",
   "dependencies": {},
